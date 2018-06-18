@@ -10,4 +10,10 @@ public class JSONMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jsonmain);
     }
+
+    @Override
+    protected void onResume ()  {
+        super.onResume ();
+        // just testing git
+    }
 }
